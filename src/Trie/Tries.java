@@ -17,9 +17,9 @@ public class Tries {
         System.out.println(trie.query("pqrs"));
         System.out.println(trie.query("abc"));
         System.out.println(trie.query("psst"));
-        System.out.println(trie.query("psst"));
+        System.out.println(trie.query("pssr"));
         trie.update("qqrs","psst");
-        
+
 
     }
 }
@@ -39,7 +39,10 @@ class Trie{
             }
             current =  current.next(s.charAt(i));
         }
+        if(current != null)
         return current.terminating;
+        else
+            throw new RuntimeException("String is not available");
     }
 
     public void insert(String s){
