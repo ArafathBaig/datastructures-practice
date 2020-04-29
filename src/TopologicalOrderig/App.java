@@ -14,20 +14,14 @@ public class App {
         List<Vertex> list = new ArrayList<>();
         list.add(new Vertex("0"));
         list.add(new Vertex("1"));
-        list.add(new Vertex("2"));
-        list.add(new Vertex("3"));
-        list.add(new Vertex("4"));
-        list.add(new Vertex("5"));
 
-        list.get(2).addNeighbour(list.get(3));
 
-        list.get(3).addNeighbour(list.get(1));
 
-        list.get(4).addNeighbour(list.get(0));
-        list.get(4).addNeighbour(list.get(1));
+        list.get(0).addNeighbour(list.get(1));
 
-        list.get(5).addNeighbour(list.get(0));
-        list.get(5).addNeighbour(list.get(2));
+        list.get(1).addNeighbour(list.get(0));
+
+
 
         for(int i= 0; i < list.size() ;++i){
             if(!list.get(i).isVisited()){

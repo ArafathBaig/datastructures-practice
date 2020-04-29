@@ -5,20 +5,10 @@ import java.util.List;
 
 public class Tries {
     public static void main(String[] args) {
-        final List<String> setOfStrings = new ArrayList<>();
-        setOfStrings.add("pqrs");
-        setOfStrings.add("pprt");
-        setOfStrings.add("psst");
-        setOfStrings.add("qqrs");
-        setOfStrings.add("pqrs");
 
         Trie trie = new Trie();
-        setOfStrings.forEach(trie::insert);
-        System.out.println(trie.query("pqrs"));
-        System.out.println(trie.query("abc"));
-        System.out.println(trie.query("psst"));
-        System.out.println(trie.query("pssr"));
-        trie.update("qqrs","psst");
+        trie.insert("apple");
+        System.out.println(trie.query("app"));
 
 
     }

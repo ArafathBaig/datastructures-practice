@@ -2,10 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aaca7746-3f30-476d-b1dc-ccd017a068d7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/CycleDetectionDFS/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CycleDetectionDFS/CycleDetection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CycleDetectionDFS/Vertex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Krushkal/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Krushkal/DisjointSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Krushkal/Edge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Krushkal/Kruskal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Krushkal/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Krushkal/Vertex.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/datastructure/TopologicalOrderig/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/datastructure/TopologicalOrderig/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/datastructure/Trie/Trie.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/datastructure/Trie/Trie.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/datastructure/Trie/TrieNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/datastructure/Trie/TrieNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/datastructure/Trie/Tries.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/datastructure/Trie/Tries.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TopologicalOrderig/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TopologicalOrderig/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Trie/Tries.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Trie/Tries.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +50,7 @@
       <recent name="$PROJECT_DIR$/src/MinimumHeap" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.App (1)">
+  <component name="RunManager" selected="Application.App (4)">
     <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CycleDetectionDFS.App" />
       <module name="datastructure" />
@@ -56,20 +65,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="App (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DijstrasAlgorithm.App" />
-      <module name="datastructure" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="DijstrasAlgorithm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="App (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BellManFord.App" />
       <module name="datastructure" />
@@ -77,6 +72,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="BellManFord.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Krushkal.App" />
+      <module name="datastructure" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Krushkal.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,19 +144,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.App (2)" />
-      <item itemvalue="Application.App (3)" />
-      <item itemvalue="Application.Tries" />
-      <item itemvalue="Application.App" />
       <item itemvalue="Application.App (1)" />
+      <item itemvalue="Application.App (3)" />
+      <item itemvalue="Application.App" />
+      <item itemvalue="Application.Tries" />
+      <item itemvalue="Application.App (4)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.App (1)" />
-        <item itemvalue="Application.App" />
+        <item itemvalue="Application.App (4)" />
         <item itemvalue="Application.Tries" />
+        <item itemvalue="Application.App" />
+        <item itemvalue="Application.App (1)" />
         <item itemvalue="Application.App (3)" />
-        <item itemvalue="Application.App (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -177,30 +186,30 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="958" y="132" key="#com.intellij.ide.util.MemberChooser" timestamp="1586165134289">
+    <state x="958" y="132" key="#com.intellij.ide.util.MemberChooser" timestamp="1588149902863">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="958" y="132" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1586165134289" />
+    <state x="958" y="132" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1588149902863" />
     <state x="618" y="302" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1579880363082">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="618" y="302" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1536.824@0.0.1536.824" timestamp="1579880363082" />
-    <state width="1493" height="227" key="GridCell.Tab.0.bottom" timestamp="1586165807150">
+    <state width="1493" height="227" key="GridCell.Tab.0.bottom" timestamp="1586513102656">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="227" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586165807150" />
-    <state width="1493" height="227" key="GridCell.Tab.0.center" timestamp="1586165807149">
+    <state width="1493" height="227" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586513102656" />
+    <state width="1493" height="227" key="GridCell.Tab.0.center" timestamp="1586513102656">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="227" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586165807149" />
-    <state width="1493" height="227" key="GridCell.Tab.0.left" timestamp="1586165807149">
+    <state width="1493" height="227" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586513102656" />
+    <state width="1493" height="227" key="GridCell.Tab.0.left" timestamp="1586513102656">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="227" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586165807149" />
-    <state width="1493" height="227" key="GridCell.Tab.0.right" timestamp="1586165807149">
+    <state width="1493" height="227" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586513102656" />
+    <state width="1493" height="227" key="GridCell.Tab.0.right" timestamp="1586513102656">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="227" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586165807149" />
+    <state width="1493" height="227" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586513102656" />
     <state width="723" height="260" key="GridCell.Tab.1.bottom" timestamp="1584882161943">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -217,10 +226,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="723" height="260" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1584882161943" />
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1586164968003">
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1586433891461">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1586164968003" />
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1586433891461" />
     <state x="209" y="34" key="new project wizard" timestamp="1579926113971">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -238,6 +247,14 @@
           <url>file://$PROJECT_DIR$/src/BellManFord/App.java</url>
           <line>20</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Krushkal/App.java</url>
+          <line>6</line>
+          <properties class="Krushkal.App" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
