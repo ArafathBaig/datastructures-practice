@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aaca7746-3f30-476d-b1dc-ccd017a068d7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/UnionFind/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UnionFind/UnionFind.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FenwickTree/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FenwickTree/NumArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IsomorphicTrees/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LowestCommonAncestor/LCAEulerTour.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,14 +42,14 @@
       <recent name="$PROJECT_DIR$/src/MinimumHeap" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CycleDetectionDFS.App" />
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="App (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DijstrasAlgorithm.App" />
       <module name="datastructure" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CycleDetectionDFS.*" />
+          <option name="PATTERN" value="DijstrasAlgorithm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -69,13 +71,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TopologicalOrderig.App" />
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FenwickTree.Main" />
       <module name="datastructure" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TopologicalOrderig.*" />
+          <option name="PATTERN" value="FenwickTree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,13 +99,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tries" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Trie.Tries" />
+    <configuration name="TreeNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="IsomorphicTrees.TreeNode" />
       <module name="datastructure" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Trie.*" />
+          <option name="PATTERN" value="IsomorphicTrees.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,19 +136,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.App (1)" />
+      <item itemvalue="Application.App (2)" />
       <item itemvalue="Application.App (4)" />
-      <item itemvalue="Application.App" />
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.Tries" />
+      <item itemvalue="Application.TreeNode" />
+      <item itemvalue="Application.Main (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.TreeNode" />
+        <item itemvalue="Application.App (2)" />
         <item itemvalue="Application.App (4)" />
-        <item itemvalue="Application.Tries" />
-        <item itemvalue="Application.App" />
-        <item itemvalue="Application.App (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -176,50 +178,50 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="958" y="132" key="#com.intellij.ide.util.MemberChooser" timestamp="1590662667449">
+    <state x="958" y="132" key="#com.intellij.ide.util.MemberChooser" timestamp="1593078040240">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="958" y="132" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1590662667448" />
+    <state x="958" y="132" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1593078040240" />
     <state x="807" y="168" key="FileChooserDialogImpl" timestamp="1588514862280">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="807" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1588514862280" />
-    <state width="1493" height="226" key="GridCell.Tab.0.bottom" timestamp="1590662922644">
+    <state width="1493" height="260" key="GridCell.Tab.0.bottom" timestamp="1593181065963">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="226" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590662922644" />
-    <state width="1493" height="226" key="GridCell.Tab.0.center" timestamp="1590662922641">
+    <state width="1493" height="260" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593181065963" />
+    <state width="1493" height="260" key="GridCell.Tab.0.center" timestamp="1593181065963">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="226" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1590662922641" />
-    <state width="1493" height="226" key="GridCell.Tab.0.left" timestamp="1590662922641">
+    <state width="1493" height="260" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1593181065963" />
+    <state width="1493" height="260" key="GridCell.Tab.0.left" timestamp="1593181065962">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="226" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1590662922641" />
-    <state width="1493" height="226" key="GridCell.Tab.0.right" timestamp="1590662922642">
+    <state width="1493" height="260" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1593181065962" />
+    <state width="1493" height="260" key="GridCell.Tab.0.right" timestamp="1593181065963">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="226" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1590662922642" />
-    <state width="1493" height="260" key="GridCell.Tab.1.bottom" timestamp="1590662594136">
+    <state width="1493" height="260" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1593181065963" />
+    <state width="1493" height="260" key="GridCell.Tab.1.bottom" timestamp="1593181066449">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="260" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590662594136" />
-    <state width="1493" height="260" key="GridCell.Tab.1.center" timestamp="1590662594136">
+    <state width="1493" height="260" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593181066449" />
+    <state width="1493" height="260" key="GridCell.Tab.1.center" timestamp="1593181066449">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="260" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1590662594136" />
-    <state width="1493" height="260" key="GridCell.Tab.1.left" timestamp="1590662594136">
+    <state width="1493" height="260" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1593181066449" />
+    <state width="1493" height="260" key="GridCell.Tab.1.left" timestamp="1593181066448">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="260" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1590662594136" />
-    <state width="1493" height="260" key="GridCell.Tab.1.right" timestamp="1590662594136">
+    <state width="1493" height="260" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1593181066448" />
+    <state width="1493" height="260" key="GridCell.Tab.1.right" timestamp="1593181066449">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="260" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1590662594136" />
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1591777071572">
+    <state width="1493" height="260" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1593181066449" />
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1593162810521">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1591777071572" />
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1593162810521" />
     <state x="209" y="34" key="new project wizard" timestamp="1588514877751">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -242,6 +244,11 @@
           <url>file://$PROJECT_DIR$/src/Krushkal/App.java</url>
           <line>34</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/FenwickTree/Main.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
